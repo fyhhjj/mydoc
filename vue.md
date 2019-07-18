@@ -7,15 +7,20 @@ cmd $ vue init webpack demo(项目名称)
 
 $ cd demo 
 $ npm install(i)
-$ npm i axios
 $ npm i 其他配置依赖
+运行：npm run dev
 
 
 vue-cli3.+
+npm i webpack -g
+npm i vue -g
 npm i @/vue-cli
 cmd $ vue create demo
 选择需求的配置依赖 上下调整位置，空格选中
-cd demo 
+cd demo
+运行：npm run serve
+
+请求数据安装axios
 npm i axios
 
 # vue 3.0 配置px自动转换rem  postcss-pxtorem
